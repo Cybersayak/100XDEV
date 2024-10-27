@@ -1,13 +1,13 @@
 {
   "name": "task3",
   "version": "1.0.0",
-  "description": "",
+  "description": "TODO APP HARD",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sayak Ghosh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
