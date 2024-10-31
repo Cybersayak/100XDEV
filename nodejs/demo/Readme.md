@@ -38,5 +38,6 @@ app.get("/files/:fileNam", function (req, res) {
 ```javascript
 app.listen(3000);
 ```
-5. Finally, the app listens on port 3000, making it accessible at `http://localhost:3000`. Any requests sent to this server, such as `http://localhost:3000/files/filename.txt`, will be handled by the specified route.
+5. Finally, the app listens on port 3000, making it accessible at `http://localhost:3000`. Any requests sent to this server, such as `http://localhost:3000/files/test.txt`, will be handled by the specified route.
 
+ 
