@@ -36,7 +36,9 @@ app.get("/files/:fileNam", function (req, res) {
    - If the read operation is successful, it sends a JSON response containing the file data.
 
 ```javascript
-app.listen(3000);
+app.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
 ```
 5. Finally, the app listens on port 3000, making it accessible at `http://localhost:3000`. Any requests sent to this server, such as `http://localhost:3000/files/test.txt`, will be handled by the specified route.
 
